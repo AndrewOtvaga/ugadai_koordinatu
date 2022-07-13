@@ -19,7 +19,7 @@ public class ugadai_koordinatu1
                 if (koordinata[0] < computer_number[0] && koordinata[1] < computer_number[1])
                 {
                     money -= 5;
-                    System.out.println("Правее бери! \n Выше бери!");
+                    System.out.println("Правее бери! \n Выше бери!");//просто по-кайфу комментарий 2
                 }
                 if (koordinata[0] > computer_number[0] && koordinata[1] > computer_number[1])
                 {
