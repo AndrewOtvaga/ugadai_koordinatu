@@ -15,7 +15,7 @@ public class ugadai_koordinatu1
                 System.out.println("Твое количество деняг:" + money);
                 System.out.println("Введите две координаты ЧЕРЕЗ ПРОБЕЛ!!!!!");
                 String[] line = sc.nextLine().split(" ");
-                int[] koordinata = new int[]{Integer.parseInt(line[0]), Integer.parseInt(line[1])};
+                int[] koordinata = new int[]{Integer.parseInt(line[0]), Integer.parseInt(line[1])};//просто по кайфу комментарий
                 if (koordinata[0] < computer_number[0] && koordinata[1] < computer_number[1])
                 {
                     money -= 5;
